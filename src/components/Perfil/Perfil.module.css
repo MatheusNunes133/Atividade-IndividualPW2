@@ -1,0 +1,67 @@
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+
+.containerPerfil>img {
+  margin-left: -50px;
+  margin-top: -40px;
+}
+
+.perfil .containerPerfil {
+  display: flex;
+}
+
+
+.userPerfil {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.userPerfil p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+}
+
+.userPerfil img {
+  width: 137px;
+  height: 137px;
+  border-radius: 50%;
+}
+
+.estrela {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #372D3B;
+  color: #FBF8FC;
+  width: 70%;
+  height: 31.37px;
+  border-radius: 16px;
+  margin-top: -30px;
+}
+
+.estrela img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.carInformation h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.73px;
+}
+
+.carInformation h5 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.73px;
+}
