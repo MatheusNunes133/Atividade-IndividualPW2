@@ -1,0 +1,98 @@
+#root {
+  margin: 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+  padding: 3rem;
+  width: 1025px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 40px;
+}
+
+.header {
+  height: 68px;
+  width: 168px;
+  background-color: var(--background-lilas);
+  margin: 2rem 2rem 0 2rem;
+  border-radius: 999px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 4rem;
+}
+
+.title h3 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.41px;
+}
+
+.title h3 span {
+  color: #864293;
+}
+
+.title h5 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30.26px;
+}
+
+.mensagem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.mensagem input[type="text"] {
+  height: 60px;
+  width: 70%;
+  background-color: var(--background-lilas);
+  color: #372D3B;
+  border: none;
+  border-radius: 24px;
+  font-size: 24px;
+  padding: 15px 10px;
+  color: #372D3B;
+}
+
+.mensagem input[type="text"]:focus {
+  outline: none !important
+}
+
+.mensagem .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00875F;
+  color: #FFF;
+  height: 49px;
+  width: 108px;
+  border-radius: 8px;
+}
+
+.mensagem img:hover {
+  cursor: pointer;
+}
+
+.mensagem .button:hover {
+  cursor: pointer;
+}
+
+.posts {
+  width: 100%;
+}
