@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    background-color: var(--background-lilas);
+}
+
+.container>img:hover {
+    cursor: pointer;
+}
+
+.container>div {
+    display: flex;
+}
+
+.container>div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 3rem;
+}
+
+.container>div img:hover {
+    cursor: pointer;
+}
+
+.container>div p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 19.2px;
+    max-width: 90%;
+}
